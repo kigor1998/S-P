@@ -1,3 +1,88 @@
+.bg-page-00{
+    background: url("../../image/background.jpg");
+    width: 100%;
+    height: 1080px;
+}
+
+.header{
+    background-color: #101417c7;
+}
+
+.header .logo img{
+    display: inline-block !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+.main-menu{
+    text-align: -webkit-center;
+}
+
+.main-menu .menu-item a{
+    color: white!important;
+    font-size: 1vw!important;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.main-menu .menu-item:hover:before{
+    content: "<" !important;
+    color: #05a59c !important;
+    position: absolute;
+    padding-right: 10px!important;
+    font-size: 1vw!important;
+}
+
+
+
+.main-menu .menu-item:hover:after{
+    content: ">" !important;
+    color: #05a59c !important;
+    text-decoration: none;
+    position: absolute;
+    font-size: 1vw!important;
+}
+
+.maine-line{
+    border-bottom: solid 2px #05a59c;
+    border-left: solid 2px #05a59c;
+    border-right: solid 2px #05a59c;
+    position: absolute;
+    width: 73%;
+    height: 100%;
+    margin-top: 28px;
+    z-index: 0;
+}
+
+.left-border-top{
+    position: absolute;
+    width: 2%;
+    border-top: solid 2px #05a59c;
+}
+
+.right-border-top{
+    position: absolute;
+    width: 2%;
+    border-top: solid 2px #05a59c;
+    margin-left: 98%;
+}
+
+.active-cast:after{
+    content: ">" !important;
+    padding-left: 7px !important;
+    color: #05a59c !important;
+}
+
+.active-cast:before{
+    content: "<" !important;
+    padding-left: 7px !important;
+    color: #05a59c !important;
+}
+
+.header .user i{
+    color: #05a59c;
+    font-size: 1.5vw!important;
+}
 .opis{
     margin-top: 30px !important;
 }
