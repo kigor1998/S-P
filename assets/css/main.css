@@ -1,0 +1,14 @@
+.second-col{
+    background: linear-gradient(to right, transparent 20%, #64eeeb 20%);
+}
+.ip{
+opacity: 0.3;
+}
+.pricing-card-title{
+    color: orange;
+}
+.btn{
+    border: solid 3px orange;
+    background-color: white;
+    color: orange;
+}
