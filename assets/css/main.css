@@ -83,3 +83,11 @@
     color: #05a59c;
     font-size: 1.5vw!important;
 }
+.opis{
+    margin-top: 30px !important;
+}
+
+.portfolio-block-card{
+    border: solid 1px green;
+    border-radius: 5px;
+}
