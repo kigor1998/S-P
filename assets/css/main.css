@@ -1,3 +1,22 @@
+.pricing-header{
+    font-size: 35px;
+}
+.first-card{
+    border-radius:3px 0px 0px 3px!important;
+    height: 240px;
+}
+.third-card{
+    height: 240px;
+}
+.second-card{
+    height: 290px;
+}
+.pricing-card-title-nm{
+    font-size: 15px;
+}
+.second-card {
+    border: solid 1px #64eeeb;
+}
 .bg-page-00{
     background: url("../../image/background.jpg");
     width: 100%;
@@ -91,8 +110,8 @@
     border: solid 1px #08e8de;
     border-radius: 5px;
 }
-.second-col{
-    background: linear-gradient(to right, transparent 20%, #64eeeb 20%);
+.bg-sec-col{
+    background: linear-gradient(to right, transparent 65%, #64eeeb 65%);
 }
 .ip{
     opacity: 0.3;
