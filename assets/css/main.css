@@ -1,4 +1,5 @@
 .pricing-header{
+    font-weight: bold;
     font-size: 35px;
 }
 .first-card{
@@ -18,13 +19,21 @@
     border: solid 1px #64eeeb;
 }
 .bg-page-00{
-    background: url("../../image/background.jpg");
+    background: url("../../image/bg-page-00.jpg");
     width: 100%;
     height: 1080px;
 }
-
+.dark-bg-page-05{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 1080px
+}
+.bg-page-05{
+    background: url("../../image/bg-page-05.png") no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+}
 .header{
-    background-color: #101417c7;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .header .logo img{
@@ -36,7 +45,27 @@
 .main-menu{
     text-align: -webkit-center;
 }
-
+.main-menu-light .menu-item-light a{
+    font-weight: bold;
+    color: #101417c7!important;
+    font-size: 1vw!important;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.main-menu-light .menu-item-light:hover:before{
+    content: "<" !important;
+    color: #05a59c !important;
+    position: absolute;
+    padding-right: 10px!important;
+    font-size: 1vw!important;
+}
+.main-menu-light .menu-item-light:hover:after{
+    content: ">" !important;
+    color: #05a59c !important;
+    text-decoration: none;
+    position: absolute;
+    font-size: 1vw!important;
+}
 .main-menu .menu-item a{
     color: white!important;
     font-size: 1vw!important;
@@ -113,16 +142,28 @@
 .bg-sec-col{
     background: linear-gradient(to right, transparent 65%, #64eeeb 65%);
 }
-.ip{
-    opacity: 0.3;
+.i-p{
+    font-family: 'Inter', sans-serif;
+    line-height: 0.8em;
+    opacity: 0.2;
+    font-weight: bold;
+    font-size: 100px;
 }
 .pricing-card-title{
     color: orange;
 }
-.btn{
-    border: solid 3px orange;
-    background-color: white;
-    color: orange;
+.btn-custom:hover{
+    font-weight: bold;
+    color: white!important;
+    background-color: #ff6002!important;
+    border: solid 3px darkorange;
+}
+.btn-custom{
+    border-radius: 0px;
+    border: solid 3px #ff6002!important;
+    background-color: transparent;
+    font-weight: bold;
+    color: #ff6002!important;
 }
 .card-text{
     line-height: inherit;
@@ -142,4 +183,52 @@
 }
 .p2{
     font-size: 20px;
+}
+.name-blog{
+    line-height: 1.1em;
+    font-size: 19px;
+    font-weight: bold;
+}
+.content-blog{
+    line-height: 1.3em;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,0.3)
+}
+.but-blog{
+    font-weight: bold;
+    color: darkorange;
+}
+.but-blog:hover{
+    color: orange;
+    text-decoration: none;
+}
+.page-name{
+    font-weight: bold;
+}
+.preview-blog{
+    font-size: 18px;
+    line-height: 1.3em;
+}
+.data-input:active{
+    font-size: 18px;
+    min-width: 70%;
+    border: solid 0px transparent;
+    color: #eceaea;
+    background-color: rgba(0,0,0,0.7);
+}
+.data-input{
+    font-size: 18px;
+    min-width: 70%;
+    border: solid 0px transparent;
+    color: #eceaea;
+    background-color: rgba(0,0,0,0.3);
+}
+.data-textarea{
+    font-size: 18px;
+    min-width: 90%;
+    min-height: 88%;
+    border: solid 0px transparent;
+    color: #eceaea;
+    background-color: rgba(0,0,0,0.3);
 }
