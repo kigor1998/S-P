@@ -88,7 +88,7 @@
 }
 
 .portfolio-block-card{
-    border: solid 1px green;
+    border: solid 1px #08e8de;
     border-radius: 5px;
 }
 .second-col{
@@ -104,4 +104,23 @@
     border: solid 3px orange;
     background-color: white;
     color: orange;
+}
+.card-text{
+    line-height: inherit;
+}
+.href{
+    color: orange;
+}
+.card-img-top{
+    background-color:#08e8de;
+}
+.appl{
+    background-color:#08e8de;
+}
+.p1{
+    font-size: 30px;
+    color: white;
+}
+.p2{
+    font-size: 20px;
 }
