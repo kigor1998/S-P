@@ -42,7 +42,7 @@
     min-height: 1080px;
 }
 .header{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .header .logo img{
@@ -181,10 +181,10 @@
     color: orange;
 }
 .card-img-top{
-    background-color:#08e8de;
+    background-color: #9adedb;
 }
 .appl{
-    background-color:#08e8de;
+    background-color: #9adedb;
 }
 .p1{
     font-size: 30px;
@@ -245,4 +245,7 @@
     line-height: 1em;
     font-size: 50px;
     color: #0a8b82;
+}
+.icons{
+
 }
