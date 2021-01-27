@@ -25,7 +25,7 @@
 }
 
 .header{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .header .logo img{
@@ -164,10 +164,10 @@
     color: orange;
 }
 .card-img-top{
-    background-color:#08e8de;
+    background-color: #9adedb;
 }
 .appl{
-    background-color:#08e8de;
+    background-color: #9adedb;
 }
 .p1{
     font-size: 30px;
@@ -180,6 +180,11 @@
     line-height: 1.1em;
     font-size: 19px;
     font-weight: bold;
+}
+.contact{
+    line-height: 1.3em;
+    font-size: 18px;
+    color: rgb(3, 174, 164);
 }
 .content-blog{
     line-height: 1.3em;
@@ -229,7 +234,17 @@
     font-size: 50px;
     color: #0a8b82;
 }
-
+.main-text{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(116, 117, 122);
+    padding-left: 100px;
+}
+.main-p{
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 100px;
+}
 .block-item-cast{
     height: 450px;
     line-height: 2;
