@@ -192,7 +192,7 @@
     color: darkorange;
 }
 .but-blog:hover{
-    color: orange;
+    color: #ffa500;
     text-decoration: none;
 }
 .page-name{
@@ -228,4 +228,78 @@
     line-height: 1em;
     font-size: 50px;
     color: #0a8b82;
+}
+
+.block-item-cast{
+    height: 450px;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.background-second-block{
+    background-color: #f0f1f3;
+}
+
+.block-item-cast-first{
+    height: 470px;
+    background-color: #f5f5f5 !important;
+}
+
+.border-first-block{
+    border-left: solid #cadddb 1px;
+    border-right: solid #cadddb 1px;
+    border-top: solid #cadddb 1px;
+    border-bottom: solid #cadddb 1px;
+}
+
+.border-second-block{
+    border-right: solid #e6e9ec 1px;
+    border-top: solid #e6e9ec 1px;
+    border-bottom: solid #e6e9ec 1px;
+}
+
+.border-third-block{
+    border-right: solid #e6e9ec 1px;
+    border-top: solid #e6e9ec 1px;
+    border-bottom: solid #e6e9ec 1px;
+}
+
+.border-forth-block{
+    border-right: solid #e6e9ec 1px;
+    border-top: solid #e6e9ec 1px;
+    border-bottom: solid #e6e9ec 1px;
+}
+.opis2{
+    font-size: medium;
+    padding-top: 20px;
+    padding-left: 85px;
+}
+.host{
+    font-size: 40px;
+    padding-left: 85px;
+}
+
+.item-button{
+    margin-top: 0px;
+    color: #ffa500;
+    border-radius: 0%;
+    border-color: #FFA500;
+}
+.level-1{
+    font-size: 30px;
+}
+.i-p-1{
+    font-family: 'Inter', sans-serif;
+    line-height: 2em;
+    opacity: 0.2;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 150px;
+}
+.font-size-item{
+    font-size: 40px;
+    padding-left: 140px;
+}
+.item-first-block-pt{
+    padding-top: 4%;
 }
